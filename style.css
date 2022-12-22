@@ -1,1 +1,72 @@
+@font-face {
+    font-family: 'SignikaNegative';
+    src: url("assets/fonts/SignikaNegative-Light.ttf");
+    font-weight: 100;
+}
+  @font-face {
+    font-family: 'SignikaNegative';
+    src: url("assets/fonts/SignikaNegative-Medium.ttf");
+    font-weight: 300;
+}
+body {
+    font-family: 'SignikaNegative', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ff0375;
+    background: #ffffff;
+}
+* {
+        box-sizing: border-box;
+}
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+  .nav-list {
+    list-style: none;
+}
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+ .nav-link {
+    transition: .3s;
+  }
+  .section-item a {
+    color: #000000;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #ffffff;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
 
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
